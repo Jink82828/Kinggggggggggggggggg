@@ -7,9 +7,9 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-TOKEN = '7538286236:AAFWMsdz8OMWcohzafVX0pAGxWYTp31qQa4'
-CHANNEL_ID = -1002177435859
-ADMIN_IDS = [5568478295]  # List of admin IDs
+TOKEN = '7951542687:AAG44UmUH63SbCNpgVHtS35zXF75Yq-DYFY'
+CHANNEL_ID = -1002264225159
+ADMIN_IDS = [6393388418]  # List of admin IDs
 
 bot = telebot.TeleBot(TOKEN)
 blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]
